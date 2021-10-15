@@ -105,8 +105,8 @@ const  GuestAuthorsPlugin = ({
         onChange: (value) => {
           setMetaName(value);
           setPostMeta({
-            dev_guest_author_img: value,
-            dev_guest_author_name: metaName,
+            dev_guest_author_img: metaUrl,
+            dev_guest_author_name: value,
           });
         },
         style: {
